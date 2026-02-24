@@ -12,7 +12,7 @@
 body { font-family: 'Space Grotesk', sans-serif; background: var(--bg-dark); color: var(--text-primary); line-height: 1.6; min-height: 100vh; }
 body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, rgba(0,245,255,0.03) 1px, transparent 1px), linear-gradient(rgba(0,245,255,0.03) 1px, transparent 1px); background-size: 50px 50px; pointer-events: none; z-index: -1; }
 .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
-.hero { padding: 6rem 0 4rem; text-align: center; position: relative; }
+.hero { padding: 6rem 0 2.5rem; text-align: center; position: relative; }
 .hero-badge { display: inline-block; padding: 0.5rem 1rem; background: rgba(0,245,255,0.1); border: 1px solid var(--neon-cyan); border-radius: 50px; font-size: 0.875rem; color: var(--neon-cyan); margin-bottom: 2rem; font-family: 'JetBrains Mono', monospace; }
 .hero h1 { font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 700; margin-bottom: 1rem; background: linear-gradient(135deg, var(--neon-cyan), var(--neon-magenta)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
 .hero-subtitle { font-size: 1.25rem; color: var(--text-secondary); max-width: 600px; margin: 0 auto 2rem; }
@@ -22,11 +22,11 @@ body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; heigh
 .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 40px rgba(0,245,255,0.3); }
 .btn-secondary { background: transparent; border: 2px solid var(--border-color); color: var(--text-primary); }
 .btn-secondary:hover { border-color: var(--neon-cyan); color: var(--neon-cyan); }
-.stats { display: flex; justify-content: center; gap: 3rem; margin-top: 4rem; flex-wrap: wrap; }
+.stats { display: flex; justify-content: center; gap: 3rem; margin-top: 2.5rem; flex-wrap: wrap; }
 .stat { text-align: center; }
 .stat-value { font-size: 2rem; font-weight: 700; color: var(--neon-cyan); font-family: 'JetBrains Mono', monospace; }
 .stat-label { font-size: 0.875rem; color: var(--text-secondary); margin-top: 0.25rem; }
-.features { padding: 4rem 0; }
+.features { padding: 2rem 0; }
 .section-title { font-size: 2rem; text-align: center; margin-bottom: 3rem; }
 .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
 .feature-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 2rem; transition: all 0.3s ease; }
