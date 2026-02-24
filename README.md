@@ -28,10 +28,11 @@ Landing page for **GitHub Copilot Dev Days** — a collection of hands-on worksh
 |----------|-------|----------|
 | [Copilot CLI Workshop](https://copilot-dev-days.github.io/tailspin-toys-workshop/) | Terminal + AI-Powered Development | ~90 min |
 
-### Other IDEs
+### IDEs
 
 | Workshop | Stack | Duration |
 |----------|-------|----------|
+| [Copilot for Visual Studio](https://copilot-dev-days.github.io/visual-studio-lab/) | Visual Studio + .NET 10 + Blazor | ~120 min |
 | [Copilot for JetBrains](https://copilot-dev-days.github.io/jetbrains-workshop/) | IntelliJ IDEA + Spring PetClinic | ~60 min |
 | [Copilot for Xcode](https://copilot-dev-days.github.io/xcode-workshop/) | Xcode + SwiftUI | ~60 min |
 
