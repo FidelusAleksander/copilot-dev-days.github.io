@@ -33,6 +33,7 @@
         .section-subtitle { text-align: center; color: var(--text-secondary); max-width: 700px; margin: -1.5rem auto 3rem; font-size: 1.1rem; }
         .category-label { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--neon-magenta); font-family: 'JetBrains Mono', monospace; margin-bottom: 1.5rem; padding-left: 0.5rem; border-left: 3px solid var(--neon-magenta); }
         .category-section { margin-bottom: 3rem; scroll-margin-top: 5rem; }
+        .learn-labs-intro { text-align: left; margin: 0 0 1.5rem; color: var(--text-secondary); font-size: 1rem; line-height: 1.6; }
         .category-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; max-width: 1200px; margin: 0 auto 3rem; padding: 0 2rem; position: sticky; top: 0; z-index: 100; background: var(--bg-dark); padding-top: 1rem; padding-bottom: 1rem; }
         [data-theme="light"] .category-nav { background: var(--bg-dark); }
         .category-pill { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 50px; color: var(--text-secondary); font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; text-decoration: none; transition: all 0.3s ease; cursor: pointer; white-space: nowrap; }
@@ -83,12 +84,64 @@
     <section class="features" id="workshops">
         <div class="container">
             <nav class="category-nav" aria-label="Workshop categories">
+                <a href="#cat-learn-labs" class="category-pill">🌱 GitHub Learn Labs</a>
                 <a href="#cat-agent-lab" class="category-pill">🐍 VS Code — Agent Lab</a>
                 <a href="#cat-specialized" class="category-pill">🎮 VS Code — Specialized</a>
                 <a href="#cat-terminal" class="category-pill">💻 Terminal — CLI</a>
                 <a href="#cat-actions" class="category-pill">🤖 GitHub Actions</a>
                 <a href="#cat-ides" class="category-pill">🖥️ IDEs</a>
             </nav>
+
+            <div class="category-section" id="cat-learn-labs">
+                <div class="category-label">🌱 Beginner Friendly — GitHub Learn Labs</div>
+                <p class="learn-labs-intro">New to GitHub Copilot? Start with these free, self-paced labs on <a href="https://learn.github.com/skills" target="_blank" style="color:var(--neon-cyan);">learn.github.com/skills</a> to get hands-on experience before diving into the workshops below.</p>
+                <div class="workshop-grid">
+                    <a href="https://github.com/skills/getting-started-with-github-copilot" class="workshop-card" target="_blank">
+                        <span class="card-badge">🚀 Beginner</span>
+                        <div class="card-title">Get Started with GitHub Copilot</div>
+                        <p class="card-desc">Learn the basics of GitHub Copilot — code completions, chat, and inline suggestions. The perfect starting point for anyone new to AI-powered development.</p>
+                        <div class="card-meta">
+                            <span class="card-tag">Free</span>
+                            <span class="card-tag">Self-paced</span>
+                            <span class="card-tag">GitHub Skills</span>
+                        </div>
+                        <span class="card-arrow">→</span>
+                    </a>
+                    <a href="https://github.com/skills/customize-your-github-copilot-experience" class="workshop-card" target="_blank">
+                        <span class="card-badge">🎛️ Beginner</span>
+                        <div class="card-title">Customize Your GitHub Copilot Experience</div>
+                        <p class="card-desc">Learn how to tailor GitHub Copilot to your workflow with custom instructions, prompt engineering, and personal settings for more relevant suggestions.</p>
+                        <div class="card-meta">
+                            <span class="card-tag">Free</span>
+                            <span class="card-tag">Self-paced</span>
+                            <span class="card-tag">GitHub Skills</span>
+                        </div>
+                        <span class="card-arrow">→</span>
+                    </a>
+                    <a href="https://github.com/skills/expand-your-team-with-copilot" class="workshop-card" target="_blank">
+                        <span class="card-badge">🤝 Beginner</span>
+                        <div class="card-title">Expand Your Team with Copilot Coding Agent</div>
+                        <p class="card-desc">Discover how to delegate tasks to GitHub Copilot's coding agent. Let it open pull requests, fix bugs, and build features autonomously as a member of your team.</p>
+                        <div class="card-meta">
+                            <span class="card-tag">Free</span>
+                            <span class="card-tag">Self-paced</span>
+                            <span class="card-tag">GitHub Skills</span>
+                        </div>
+                        <span class="card-arrow">→</span>
+                    </a>
+                    <a href="https://github.com/skills/create-applications-with-the-copilot-cli" class="workshop-card" target="_blank">
+                        <span class="card-badge">💻 Beginner</span>
+                        <div class="card-title">Create Apps with the Copilot CLI</div>
+                        <p class="card-desc">Use GitHub Copilot in the terminal to scaffold, build, and iterate on applications. Learn how to harness Copilot CLI to speed up command-line workflows.</p>
+                        <div class="card-meta">
+                            <span class="card-tag">Free</span>
+                            <span class="card-tag">Self-paced</span>
+                            <span class="card-tag">GitHub Skills</span>
+                        </div>
+                        <span class="card-arrow">→</span>
+                    </a>
+                </div>
+            </div>
 
             <div class="category-section" id="cat-agent-lab">
                 <div class="category-label">VS Code — Agent Lab (Social Bingo)</div>
